@@ -21,5 +21,5 @@ func main() {
 	time.Sleep(time.Second)
 
 	finalCounter := atomic.LoadUint64(&counter)
-	fmt.Println("ops:", finalCounter)
+	fmt.Println("Counter:", finalCounter)
 }
